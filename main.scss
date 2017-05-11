@@ -17,25 +17,52 @@ article {
     @include center(95%, $media: $mobile);
 }
 
-a {
-    display: block;
+section {
+    @include grid($gutter:0em, $media: $desktop);
 }
 
-a:hover {
-    color: $highlight-color;
-}
 
 h1 {
     font-weight: bold;
-}
-
-h1, a {
     font-size: 5rem;
-    text-decoration: none;
     color: $base-color;
+
 }
 
-p {
-    font-size: 2em;
-    color: $base-color;
+a {
+    text-decoration: none;
+    color: $highlight-color;
 }
+
+article > a {
+    font-size: 5rem;
+    color: $base-color;
+    display: block;
+}
+
+article > a:hover {
+    color: $highlight-color;
+}
+
+p, div {
+    font-size: 1.4rem;
+
+    @include breakpoint($desktop) {
+        font-size: 1.8rem;
+    }
+    color: $base-color;
+    @include width(3/4);
+}
+
+img {
+    width: 100%;
+    padding: 1em;
+    display: block;
+    @include center(50%, $media: $tablet);
+    @include center(60%, $media: $mobile);
+
+    @include breakpoint($desktop) {
+        padding: 0.7em;
+    }
+}
+
