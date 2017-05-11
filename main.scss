@@ -32,6 +32,9 @@ h1 {
 
     color: $base-color;
     margin-top: 1rem;
+    margin-bottom: 0.5rem;
+
+    border-bottom: $highlight-color solid 4px;
 }
 
 a {
