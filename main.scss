@@ -22,7 +22,6 @@ section {
     margin-bottom: 1rem;
 }
 
-
 h1 {
     font-weight: bold;
     font-size: 3.5rem;
@@ -61,7 +60,7 @@ p, div {
         font-size: 1.8rem;
     }
     color: $base-color;
-    @include width(3/4);
+    @include width(6/10);
 }
 
 p + p {
