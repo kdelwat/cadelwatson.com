@@ -1,3 +1,11 @@
-h1 {
-    color: red;
+@import "neapolitan/base";
+
+$desktop: media-from(769px);
+$tablet: media-between(481px, 768px);
+$mobile: media-until(480px);
+
+article {
+    @include center(70%, $media: $desktop);
+    @include center(80%, $media: $tablet);
+    @include center(95%, $media: $mobile);
 }
