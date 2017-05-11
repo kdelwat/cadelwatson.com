@@ -34,6 +34,10 @@ a {
     color: $highlight-color;
 }
 
+h1 > a {
+    color: $base-color;
+}
+
 article > a {
     font-size: 5rem;
     color: $base-color;
@@ -66,3 +70,10 @@ img {
     }
 }
 
+.fa {
+    margin-left: 1rem;
+}
+
+h1 .fa {
+    margin-left: 0rem;
+}
