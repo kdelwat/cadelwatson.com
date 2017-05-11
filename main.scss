@@ -4,8 +4,29 @@ $desktop: media-from(769px);
 $tablet: media-between(481px, 768px);
 $mobile: media-until(480px);
 
+$base-color: #333333;
+$highlight-color: #FFADC6;
+
 article {
     @include center(70%, $media: $desktop);
     @include center(80%, $media: $tablet);
     @include center(95%, $media: $mobile);
+}
+
+a {
+    display: block;
+}
+
+a:hover {
+    color: $highlight-color;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h1, a {
+    font-size: 5rem;
+    text-decoration: none;
+    color: $base-color;
 }
