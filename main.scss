@@ -19,6 +19,7 @@ article {
 
 section {
     @include grid($gutter:0em, $media: $desktop);
+    margin-bottom: 1rem;
 }
 
 
@@ -26,7 +27,7 @@ h1 {
     font-weight: bold;
     font-size: 3.5rem;
 
-    @breakpoint($media: $desktop) {
+    @include breakpoint($desktop) {
         font-size: 5rem;
     }
 
@@ -73,6 +74,8 @@ img {
     @include breakpoint($desktop) {
         padding: 0.7em;
     }
+
+    border: $base-color solid 2px;
 }
 
 .fa {
