@@ -64,15 +64,19 @@ p, div {
     @include width(3/4);
 }
 
+p + p {
+    margin-top: 1rem;
+}
+
 img {
     width: 100%;
-    padding: 1em;
+    margin: 1em;
     display: block;
     @include center(50%, $media: $tablet);
     @include center(60%, $media: $mobile);
 
     @include breakpoint($desktop) {
-        padding: 0.7em;
+        margin: 0.7em;
     }
 
     border: $base-color solid 2px;
