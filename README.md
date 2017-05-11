@@ -2,7 +2,7 @@
 
 This is the source code for my [website](https://www.cadelwatson.com), built
 using my [Neapolitan](https://kdelwat.github.io/Neapolitan/) CSS framework and
-[http://fontawesome.io/](Font Awesome).
+[http://fontawesome.io](Font Awesome).
 
 ## Building
 
