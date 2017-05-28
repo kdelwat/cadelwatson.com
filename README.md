@@ -13,3 +13,8 @@ to convert the Sass stylesheet into CSS:
 ```bash
 sass main.scss main.css
 ```
+
+## Licensing
+
+The site uses icons from [Font Awesome](http://fontawesome.io) by Dave Gandy,
+generated using [Fontello](http://fontello.com/).
