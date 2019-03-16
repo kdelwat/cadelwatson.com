@@ -1,5 +1,7 @@
 # cadelwatson.com
 
+*Moved to https://github.com/kdelwat/PersonalSite*
+
 This is the source code for my [website](https://www.cadelwatson.com), built
 using my [Neapolitan](https://kdelwat.github.io/Neapolitan/) CSS framework and
 [Font Awesome](http://fontawesome.io).
